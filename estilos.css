@@ -52,6 +52,72 @@ header #avatar img {
 }
 
 
+/*Navegacion*/
+
+nav {
+	background-color: #80BCA3;
+	padding: 0 0.5em;
+	position: relative;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul #publicar_nav {
+	position: absolute;
+	right: 0;
+	top: -0.4em;
+}
+
+nav ul #publicar_nav a {
+	background-color: #22BCE0;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	padding: 0.8em 0.5em;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+nav ul li a {
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
