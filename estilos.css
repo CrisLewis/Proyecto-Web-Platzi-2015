@@ -102,11 +102,20 @@ header h1 {
 	margin: 0.2em 70px 0 0;
 }
 
-header #logo img {
+header #logo {
 	border-right: 1px solid white;
+	margin-right: 0.5em;
+}
+
+header #logo img {
+	-webkit-transition: all .5s ease;
 	padding-right: 0.5em;
 	margin-right: 0.5em;
 	width: 52px;
+}
+
+header #logo img:hover {
+	-webkit-transform: rotate(360deg);
 }
 
 header #avatar {
@@ -153,6 +162,14 @@ nav ul #publicar_nav a {
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 }
 
+nav ul #publicar_nav a:hover {
+	-webkit-transform: scale(1.2);
+}
+
+nav ul #publicar_nav a:hover:before {
+	font-size: 20px;
+}
+
 nav ul li {
 	display: inline-block;
 	margin: 0 1em 0 0;
@@ -161,8 +178,14 @@ nav ul li {
 nav ul li a {
 	color: white;
 	display: block;
-	padding: 0.5em 0;
+	padding: 0.5em;
+	-webkit-transition: all .3s ease;
 }
+
+nav ul li a:hover {
+	background-color: #343B54;
+}
+
 
 aside {
 	display: none;
