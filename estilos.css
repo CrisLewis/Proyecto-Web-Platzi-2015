@@ -327,6 +327,40 @@ footer p:last-child:after {
 	}
 }
 
+/* FORMULARIO */
+
+.formulario {
+	display: none;
+	padding: 1em;
+	text-align: right;
+}
+
+.formulario input {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]{
+	background-color: #22bce0;
+	border-color: #22bce0;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	color: #ffffff;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
